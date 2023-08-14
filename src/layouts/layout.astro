@@ -1,0 +1,26 @@
+---
+
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Expenses Chart</title>
+  </head>
+  <body class="bg-cream flex items-center justify-center min-h-[100svh]">
+    <main class="max-w-[445px] mx-auto w-full">
+      <slot />
+    </main>
+  </body>
+</html>
+
+<style is:global>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+  }
+</style>
